@@ -99,6 +99,7 @@ class Reward(models.Model):
     GENDER_CHOICES = (
        ('a', 'Male'),
        ('b', 'Female'),
+       
    )
     gender = models.CharField(max_length=15, choices=GENDER_CHOICES)
 
